@@ -634,9 +634,6 @@ void vcs_merge(const char *branch_to_merge)
 
     printf("Merged changes from branch '%s'. Please commit the merge.\n", branch_to_merge);
 }
-
-
-
 void show_help()
 {
     printf("Available commands:\n");
